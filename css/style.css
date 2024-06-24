@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -244,11 +245,11 @@ button.order-service:focus{
 .team-list-item p{
     margin-bottom: 32px;
 }
-.portfolio .container{
+/*.portfolio .container{
     width: 1128px;
     height: 1000px;
     margin-bottom: 120px;
-}
+}*/
 .portfolio{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
