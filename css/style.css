@@ -46,7 +46,7 @@ img{
 /*.page-header{
     border-bottom: 1px solid #e7e9fc;
 }*/
-header{
+.page-header{
     border-bottom: 1px solid #e7e9fc;
     max-width: 1158px;
     padding-left: 15px;
