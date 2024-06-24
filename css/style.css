@@ -44,6 +44,9 @@ img{
     margin: 0 auto;
 
 }
+/*.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}*/
 .page-header .container{
     display: flex;
     gap: 332px;
