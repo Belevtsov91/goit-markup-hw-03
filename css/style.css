@@ -170,11 +170,16 @@ button:focus{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .container .benefits-list{
     display: flex;
     padding: 120px 0 120px;
     gap: 24px;
     justify-content: center;
+    /*width: calc((100% - 72px) / 4);*/
+}
+.container .benefits-li{
+    width: calc((100% - 72px) / 4);
 }
 .benefits-item{
     font-weight: 500;
@@ -187,7 +192,7 @@ button:focus{
 .benefits-li p{
     text-align: left;
     height: 104px;
-    width: 264px;
+    /*width: 264px;*/
 }
 .benefits-item-info{
     font-size: 16px;
@@ -218,6 +223,11 @@ button:focus{
     display: flex;
     /*gap: 24px;*/
 }
+.our-team-list .team-list-item{
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
 .our-team-list{
     background-color: #FFFFFF;
 }
@@ -239,17 +249,21 @@ button:focus{
     background-color: #FFFFFF;
 }
 .team-list-item{
-    border-radius: 4px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
-.team-list-item img{
-    margin-bottom: 32px;
+.team-name{
+    padding: 32px 0;
 }
-.team-list-item h3{
+/*.team-list-item img{
+    margin-bottom: 32px;
+}*/
+.team-name .our-team-item{
+    text-align: center;
     margin-bottom: 8px;
 }
-.team-list-item p{
+.team-name .our-team-info{
+    text-align: center;
     margin-bottom: 32px;
 }
 /*.portfolio .container{
