@@ -1,0 +1,326 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+    background-color: #FFFFFF;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+main {
+    flex-grow: 1;
+}
+img{
+    display: block;
+}
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+
+.page-header .container{
+    display: flex;
+    gap: 332px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.logo-header{
+    color: #4d5ae5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    margin-right: 76px;
+}
+.logo-header-studio{
+    color: #2e2f42;
+}
+.header-list{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
+    padding: 24px 0 24px;
+}
+.header-list a{
+    text-decoration: none;
+    color: #2E2F42;
+}
+.header-list a:hover{
+    color: #404BBF;
+}
+.header-list a:active{
+    text-decoration: underline;
+}
+.header-list a:focus{
+    color: #404bbf
+}
+.address-list{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    padding: 24px 0 24px;
+}
+.address-list a{
+    color: #434455;
+    text-decoration: none;
+}
+.address-list-items{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 0;
+}
+.address-list a:hover{
+    color: #404BBF;
+}
+.address-list a:focus{
+    color: #404bbf;
+}
+.solution .container-solution{
+    background-color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    max-width: 1158px;
+    margin: 0 auto;
+
+}
+.solution-item{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+h1{
+    justify-content: start;
+    width: 496px;
+    height: 120px;
+    margin-top: 188px;
+    margin-bottom: 48px;
+}
+button.order-service{
+    cursor: pointer;
+    color: white;
+    background-color: #4D5AE5;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    height: 56px;
+    width: 169px;
+    padding: 0;
+}
+button.order-service:hover{
+    background-color: #404BBF;
+}
+button.order-service:focus{
+    background-color: #404BBF;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container .benefits-list{
+    display: flex;
+    padding: 120px 0 120px;
+    gap: 24px;
+    justify-content: center;
+}
+.benefits-item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.benefits-li p{
+    text-align: left;
+    height: 104px;
+    width: 264px;
+}
+.benefits-item-info{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*.team{
+    padding: 120px 0 120px;
+}*/
+.team .container{ 
+    background-color: #F4F4FD;
+    height: 732px;
+    padding: 120px 0 120px;
+}
+.our-team{
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    /*padding-top: 120px;*/
+    margin-bottom: 72px;
+}
+.our-team-list{
+    background-color: #F4F4FD;
+    display: flex;
+    /*gap: 24px;*/
+}
+.our-team-list{
+    background-color: #FFFFFF;
+}
+.our-team-item{
+    background-color: #FFFFFF;
+}
+.our-team-item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.our-team-info{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.team-list-item{
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.team-list-item img{
+    margin-bottom: 32px;
+}
+.team-list-item h3{
+    margin-bottom: 8px;
+}
+.team-list-item p{
+    margin-bottom: 32px;
+}
+/*.portfolio .container{
+    width: 1128px;
+    height: 1000px;
+    margin-bottom: 120px;
+}*/
+.portfolio{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.our-portfolio{
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    padding: 120px 0 72px 0;
+    text-align: center;
+}
+.portfolio-list{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.portfolio-list-item img{
+    margin-bottom: 32px;
+}
+.portfolio-list-item h3{
+    margin-bottom: 8px;
+}
+.portfolio-item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+.portfolio-item-info{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.end-page{
+    background-color: #2e2f42;
+}
+.end-page .container{
+    height: 312px;
+    width: 264px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 100px;
+}
+.logo-footer{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #4d5ae5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo-footer-studio{
+    color: #f4f4fd;
+}
+.logo-footer-item{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
