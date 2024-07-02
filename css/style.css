@@ -221,10 +221,9 @@ button:focus{
 .our-team-list{
     background-color: #F4F4FD;
     display: flex;
-    /*gap: 24px;*/
-}
-.our-team-list .team-list-item{
     gap: 24px;
+}
+.team-list-item{
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
