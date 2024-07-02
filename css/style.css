@@ -324,12 +324,15 @@ button:focus{
     background-color: #2e2f42;
 }
 .end-page .container{
-    height: 312px;
+    padding: 100px 0;
     width: 264px;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    padding-top: 100px;
+}
+.end-page .container a{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-footer{
     font-family: "Raleway", sans-serif;
@@ -340,8 +343,8 @@ button:focus{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
-    margin-bottom: 16px;
+   /* display: inline-block;
+    margin-bottom: 16px;*/
 }
 .logo-footer-studio{
     color: #f4f4fd;
