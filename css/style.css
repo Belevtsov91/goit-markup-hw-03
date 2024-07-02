@@ -114,14 +114,15 @@ img{
 .address-list a:focus{
     color: #404bbf;
 }
-.solution .container-solution{
+.solution{
+    padding: 188px 0;
+}
+.solution .container{
     background-color: #2e2f42;
     display: flex;
     flex-direction: column;
     height: 600px;
     align-items: center;
-    max-width: 1158px;
-    margin: 0 auto;
 
 }
 .solution-item{
@@ -133,12 +134,11 @@ img{
 }
 h1{
     justify-content: start;
-    width: 496px;
+    max-width: 496px;
     height: 120px;
-    margin-top: 188px;
     margin-bottom: 48px;
 }
-button.order-service{
+button{
     cursor: pointer;
     color: white;
     background-color: #4D5AE5;
@@ -149,13 +149,14 @@ button.order-service{
     letter-spacing: 0.04em;
     border-radius: 4px;
     height: 56px;
-    width: 169px;
+    min-width: 169px;
     padding: 0;
+    display: block;
 }
-button.order-service:hover{
+button:hover{
     background-color: #404BBF;
 }
-button.order-service:focus{
+button:focus{
     background-color: #404BBF;
 }
 .visually-hidden {
