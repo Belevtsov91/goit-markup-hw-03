@@ -103,6 +103,9 @@ img{
     display: flex;
     gap: 40px;
     margin-right: 0;
+    /*padding: 24px 0 24px;*/
+}
+.address-list-item{
     padding: 24px 0 24px;
 }
 .address-list a:hover{
