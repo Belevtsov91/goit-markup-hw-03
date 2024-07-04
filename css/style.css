@@ -38,6 +38,7 @@ img{
 }
 .page-header{
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 
@@ -71,11 +72,10 @@ img{
     letter-spacing: 0.02em;
     display: flex;
     gap: 40px;
-    /*padding: 24px 0 24px;*/
 }
-.header-list-item{
+/*.header-list-item{
     padding: 24px 0;
-}
+}*/
 .header-list a{
     text-decoration: none;
     color: #2E2F42;
@@ -107,9 +107,9 @@ img{
     gap: 40px;
     margin-right: 0;
 }
-.address-list-item{
+/*.address-list-item{
     padding: 24px 0;
-}
+}*/
 .address-list a:hover{
     color: #404BBF;
 }
@@ -191,7 +191,6 @@ button:focus{
 .benefits-li p{
     text-align: left;
     height: 104px;
-    /*width: 264px;*/
 }
 .benefits-item-info{
     font-size: 16px;
@@ -199,9 +198,7 @@ button:focus{
     letter-spacing: 0.02em;
     color: #434455;
 }
-/*.team{
-    padding: 120px 0 120px;
-}*/
+
 .team .container{ 
     background-color: #F4F4FD;
     height: 732px;
@@ -214,7 +211,6 @@ button:focus{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    /*padding-top: 120px;*/
     margin-bottom: 72px;
 }
 .our-team-list{
@@ -253,9 +249,7 @@ button:focus{
 .team-name{
     padding: 32px 0;
 }
-/*.team-list-item img{
-    margin-bottom: 32px;
-}*/
+
 .team-name .our-team-item{
     text-align: center;
     margin-bottom: 8px;
@@ -264,11 +258,7 @@ button:focus{
     text-align: center;
     margin-bottom: 32px;
 }
-/*.portfolio .container{
-    width: 1128px;
-    height: 1000px;
-    margin-bottom: 120px;
-}*/
+
 .portfolio{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -298,9 +288,7 @@ button:focus{
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-/*.portfolio-list-item img{
-    margin-bottom: 32px;
-}*/
+
 .portfolio-list-item h3{
     margin-bottom: 8px;
 }
