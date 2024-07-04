@@ -38,7 +38,7 @@ img{
 }
 .page-header{
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
+    /*padding: 24px 0;*/
 }
 
 
@@ -73,9 +73,12 @@ img{
     display: flex;
     gap: 40px;
 }
-/*.header-list-item{
+/*.header-list .header-item{
     padding: 24px 0;
 }*/
+.page-header a{
+    padding: 24px 0;
+}
 .header-list a{
     text-decoration: none;
     color: #2E2F42;
@@ -107,9 +110,9 @@ img{
     gap: 40px;
     margin-right: 0;
 }
-/*.address-list-item{
+.address-list-item{
     padding: 24px 0;
-}*/
+}
 .address-list a:hover{
     color: #404BBF;
 }
