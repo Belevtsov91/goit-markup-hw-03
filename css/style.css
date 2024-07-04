@@ -108,7 +108,7 @@ img{
     margin-right: 0;
 }
 .address-list-item{
-    padding: 24px 0 24px;
+    padding: 24px 0;
 }
 .address-list a:hover{
     color: #404BBF;
@@ -296,6 +296,7 @@ button:focus{
 .container-list-item{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 /*.portfolio-list-item img{
     margin-bottom: 32px;
@@ -330,7 +331,7 @@ button:focus{
     justify-content: start;
 }
 .end-page a{
-    display: inline-block;
+    /*display: inline-block;*/
     margin-bottom: 16px;
 }
 .logo-footer{
@@ -342,8 +343,8 @@ button:focus{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-   /* display: inline-block;
-    margin-bottom: 16px;*/
+    display: inline-block;
+
 }
 .logo-footer-studio{
     color: #f4f4fd;
