@@ -317,8 +317,8 @@ button:focus{
     flex-direction: column;
     justify-content: start;
 }
-.end-page a{
-    /*display: inline-block;*/
+.end-page .logo-footer{
+    display: inline-block;
     margin-bottom: 16px;
 }
 .logo-footer{
