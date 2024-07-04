@@ -172,7 +172,7 @@ button:focus{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.benefits{
+.benefits .container{
     padding: 120px 0;
 }
 .container .benefits-list{
