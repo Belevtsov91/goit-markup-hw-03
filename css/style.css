@@ -25,9 +25,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
 }
-a{ 
-    display: inline-block;
-}
+
 .container {
     width: 1158px;
     padding: 0 15px;
@@ -76,6 +74,9 @@ img{
     gap: 40px;
     /*padding: 24px 0 24px;*/
 }
+.header-list .header-list-item{
+    padding: 24px 0;
+}
 .header-list a{
     text-decoration: none;
     color: #2E2F42;
@@ -106,7 +107,6 @@ img{
     display: flex;
     gap: 40px;
     margin-right: 0;
-    /*padding: 24px 0 24px;*/
 }
 .address-list-item{
     padding: 24px 0 24px;
@@ -117,9 +117,6 @@ img{
 .address-list a:focus{
     color: #404bbf;
 }
-/*.solution{
-    padding: 188px 0;
-}*/
 .solution .container{
     background-color: #2e2f42;
     display: flex;
