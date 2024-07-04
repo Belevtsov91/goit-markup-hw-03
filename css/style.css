@@ -73,9 +73,6 @@ img{
     display: flex;
     gap: 40px;
 }
-/*.header-list .header-item{
-    padding: 24px 0;
-}*/
 .page-header a{
     padding: 24px 0;
 }
@@ -177,7 +174,6 @@ button:focus{
 }
 .container .benefits-list{
     display: flex;
-    /*padding: 120px 0 120px;*/
     gap: 24px;
     justify-content: center;
 }
@@ -206,7 +202,7 @@ button:focus{
 .team .container{ 
     background-color: #F4F4FD;
     height: 732px;
-    padding: 120px 0 120px;
+    padding: 120px 0;
 }
 .our-team{
     color: #2e2f42;
