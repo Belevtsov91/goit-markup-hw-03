@@ -172,13 +172,14 @@ button:focus{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
+.benefits{
+    padding: 120px 0;
+}
 .container .benefits-list{
     display: flex;
-    padding: 120px 0 120px;
+    /*padding: 120px 0 120px;*/
     gap: 24px;
     justify-content: center;
-    /*width: calc((100% - 72px) / 4);*/
 }
 .container .benefits-li{
     width: calc((100% - 72px) / 4);
