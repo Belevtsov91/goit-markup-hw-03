@@ -172,7 +172,7 @@ button:focus{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.benefits .container{
+.benefits{
     padding: 120px 0;
 }
 .container .benefits-list{
@@ -202,9 +202,9 @@ button:focus{
     color: #434455;
 }
 
-.team .container{ 
+.team{ 
     background-color: #F4F4FD;
-    height: 732px;
+    /*height: 732px;*/
     padding: 120px 0 120px 0;
 }
 .our-team{
@@ -260,7 +260,7 @@ button:focus{
 .team-name .our-team-info{
     text-align: center;
 }
-.portfolio .container{
+.portfolio{
     padding: 120px 0;;
 }
 .portfolio{
@@ -313,17 +313,21 @@ button:focus{
     color: #434455;
 }
 .end-page{
+    padding: 100px 0;
     background-color: #2e2f42;
+    padding-left: 156px;
 }
 .end-page .container{
-    padding: 100px 0;
+    /*padding: 100px 0;*/
     width: 264px;
     display: flex;
     flex-direction: column;
     justify-content: start;
+    display: inline-block;
+    
+
 }
 .end-page .logo-footer{
-    display: inline-block;
     margin-bottom: 16px;
 }
 .logo-footer{
